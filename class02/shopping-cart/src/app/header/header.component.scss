@@ -1,0 +1,24 @@
+:host {
+  display: block;
+  background-color: rgb(70, 96, 209);
+  height: 60px;
+  color: #ffffff;
+  font-size: 1.25rem;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 60px;
+  padding-left: 5%;
+
+  div.cart {
+    float: right;
+    margin-right: 5%;
+  }
+  .cart img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .cart span {
+    font-size: 0.8rem;
+  }
+}
