@@ -1,0 +1,28 @@
+:host {
+  display: block;
+  position: relative;
+}
+
+.content {
+  display: block;
+  min-height: calc(100vh - 60px - 40px - 60px);
+  width: 64%;
+  margin: 0 auto;
+  padding-top: 60px;
+  // margin-top: 60px;
+  text-align: center;
+
+
+  .product {
+    display: inline-block;
+  }
+}
+
+.cart {
+  position: absolute;
+  left: 750px;
+  z-index: 100;
+  background-color: rgb(147, 166, 228);
+  color: #ffffff;
+  padding-left: 20px;
+}

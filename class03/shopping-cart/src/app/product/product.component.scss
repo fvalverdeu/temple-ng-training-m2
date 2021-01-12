@@ -1,0 +1,36 @@
+:host {
+  display: block;
+  height: 120px;
+  width: 250px;
+  border: 1px solid black;
+  border-radius: 15px;
+  box-shadow: 4px 4px black;
+  margin: 10px;
+  padding: 10px;
+
+  h1 {
+    font-size: 1.25rem;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+
+  p {
+    font-size: 0.95rem;
+    margin-bottom: 5px;
+  }
+
+  span {
+    font-size: 1.05rem;
+    font-weight: bold;
+  }
+
+  button {
+    margin-left: 20px;
+    padding: 5px 10px;
+    background-color: rgb(81, 81, 245);
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+}
