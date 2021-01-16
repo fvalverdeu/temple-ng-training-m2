@@ -1,0 +1,5 @@
+<div class="cardPokemon" *ngIf='pokemon'>
+  <img class="pokemonImage" [src]="pokemon.sprite" alt=""/>
+  <br />
+  <span>Pokemon #{{ pokemon.id }}: {{ pokemon.name }}</span>
+</div>

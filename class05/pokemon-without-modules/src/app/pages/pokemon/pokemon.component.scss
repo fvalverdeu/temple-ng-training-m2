@@ -1,0 +1,18 @@
+.contenedor {
+  width: 100%;
+  padding: 2%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.contenedorCard {
+  //float:left;
+  width:210px;
+  height:180;
+  margin: 1%;
+  padding:0.5%;
+  background-color:#f5f7f9;
+  border-right: #a5a7aa solid 1px;
+  border-bottom: #a5a7aa solid 1px;
+  text-align:center;
+}
