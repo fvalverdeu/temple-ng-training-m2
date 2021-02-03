@@ -4,13 +4,15 @@ import { PortalComponent } from './portal.component';
 import { HomeView } from './views/home/home.view';
 import { DetailView } from './views/detail/detail.view';
 
-import { PortalRoutingModule } from './portal-routing.module'
+import { PortalRoutingModule } from './portal-routing.module';
+import { PortalCommonsModule } from './commons/commons.module';
 
 @NgModule({
   declarations: [PortalComponent, HomeView, DetailView],
   imports: [
     CommonModule,
-    PortalRoutingModule
+    PortalRoutingModule,
+    PortalCommonsModule
   ]
 })
 export class PortalModule { }
