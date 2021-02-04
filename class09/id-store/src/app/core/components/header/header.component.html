@@ -1,0 +1,26 @@
+<mat-toolbar color="" class="header">
+  <h2 class="logo">
+    <img src="assets/img/logo_min.png" alt="IdStore" class="logo">
+  </h2>
+  <!-- <span class="logo">ID Store</span> -->
+  <div class="menu matcolorprimary">
+    <button mat-button (click)="redirectTo('home')">INICIO</button>
+    <button mat-button [matMenuTriggerFor]="productsMenu">PRODUCTOS</button>
+    <mat-menu #productsMenu="matMenu" yPosition="below">
+      <button mat-menu-item>Mascarillas</button>
+      <button mat-menu-item>Protectores Faciales</button>
+      <button mat-menu-item>Oxímetros</button>
+      <button mat-menu-item>Termómetros</button>
+    </mat-menu>
+    <button mat-button (click)="redirectTo('about')">NOSOTROS</button>
+    <!-- <a routerLink="/portal/about">NOSOTROS</a> -->
+    <button mat-button [matMenuTriggerFor]="contactMenu">CONTACTO</button>
+    <mat-menu #contactMenu="matMenu" yPosition="below">
+      <button mat-menu-item>Cliente</button>
+      <button mat-menu-item >Administrador</button>
+    </mat-menu>
+    <!-- <mat-icon [matBadge]="badge" matBadgeColor="warn" class="material-icons primary">shopping_cart</mat-icon> -->
+    <mat-icon class="material-icons primary">search</mat-icon>
+  </div>
+</mat-toolbar>
+<div class="divi"></div>

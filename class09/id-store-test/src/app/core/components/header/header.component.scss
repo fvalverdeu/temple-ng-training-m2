@@ -1,0 +1,37 @@
+.header {
+  height: 80px;
+  background-color: white;
+}
+
+h2.logo {
+  width: 80px;
+  margin-left: 12%;
+  img {
+    max-width: 70px;
+    border-radius: 10%;
+  }
+  font-size: x-large;
+  font-weight: bolder;
+  color: white;
+}
+
+.menu {
+  margin-left: 32%;
+}
+
+button {
+  font-size: large;
+  font-weight: bolder;
+  color: #00AAFF;
+}
+
+.divi {
+  height: 15px;
+  background-color: #00AAFF;
+}
+
+.material-icons.primary {
+  color: #00AAFF;
+  margin-left: 4%;
+  margin-top: 0.5%;
+}
