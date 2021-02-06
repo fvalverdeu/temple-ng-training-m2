@@ -1,0 +1,21 @@
+:host {
+  display: block;
+  outline: 1px solid red;
+
+  h1 {
+    font-size: 2rem;
+    color: #00AAFF;
+    margin-bottom: 10px;
+  }
+
+  p span {
+    font-size: 1.5rem;
+    color: #000000;
+    margin-bottom: 40px;
+  }
+  p.description {
+    font-size: 1.2rem;
+    margin: 0;
+    padding: 0;
+  }
+}

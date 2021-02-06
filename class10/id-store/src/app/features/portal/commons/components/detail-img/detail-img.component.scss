@@ -1,0 +1,45 @@
+:host {
+  display: flex;
+  outline: 1px solid red;
+
+  .content {
+    display: flex;
+    flex-direction: row;
+    width: 20%;
+  }
+
+  .main-img {
+    width: 80%;
+
+    img {
+      width: 400px;
+    }
+  }
+
+  .slider-wrap {
+    max-height: 400px;
+  }
+  .slider {
+    flex-wrap: nowrap;
+    overflow-y: hidden;
+  }
+  .slider img {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+
+// #slider-wrapper {
+//   max-width: 940px;
+//   display: flex;
+//   min-height: 100px;
+//   align-items: center;
+// }
+
+// #slider {
+//   width: 860px;
+//   display: flex;
+//   flex-wrap: nowrap;
+//   overflow-x: hidden;
+// }

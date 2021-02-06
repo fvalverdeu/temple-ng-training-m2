@@ -1,0 +1,12 @@
+<div class="content">
+  <div class="slider-wrap">
+    <div class="slider">
+      <ng-container *ngFor="let item of images">
+        <img [src]="getImages(item)" alt="" (click)="toogleImg(item)">
+      </ng-container>
+    </div>
+  </div>
+</div>
+<div class="main-img">
+  <img [src]="srcMain" alt="">
+</div>

@@ -1,0 +1,12 @@
+:host {
+  display: flex;
+  height: calc(100vh - 80px - 40px);
+
+  .detail-img {
+    width: 60%;
+  }
+
+  .detail-info {
+    width: 40%;
+  }
+}
