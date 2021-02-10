@@ -1,0 +1,35 @@
+:host {
+  display: block;
+  outline: 1px solid red;
+  padding: 10px;
+
+  h1 {
+    font-size: 2rem;
+    font-weight: bolder;
+    color: #00AAFF;
+    margin-bottom: 20px;
+  }
+
+  p {
+    font-size: 1.5rem;
+    margin-bottom: 40px;
+
+    span {
+      font-size: 2.5rem;
+    }
+  }
+
+  p.description {
+    font-size: 1.2rem;
+    margin: 0;
+    padding: 0;
+    height: 150px;
+  }
+
+  p span.quantity {
+    margin-bottom: 40px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #00AAFF;
+  }
+}
