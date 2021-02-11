@@ -1,0 +1,15 @@
+<div class="content">
+  <div class="slider-wrapper">
+    <img src="assets/icons/up.svg" alt="" class="up" (click)="up()">
+    <div class="slider" #slider>
+      <ng-container *ngFor="let item of images">
+        <img [src]="getImages(item)" alt="" (click)="toogleImg(item)">
+      </ng-container>
+    </div>
+    <img src="assets/icons/down.svg" #imgDown alt="" class="down" (click)="down()">
+  </div>
+  <div class="main-img">
+    <img [src]="srcMain" alt="">
+  </div>
+</div>
+

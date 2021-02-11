@@ -1,0 +1,37 @@
+:host {
+  display: block;
+  // width: 30%;
+  margin: 10px;
+  mat-card-content p {
+    height: 80px;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+
+    span {
+      margin-left: 40px;
+    }
+  }
+
+  .content-img {
+    text-align: center;
+    img {
+      margin-top: 10px;
+      height: 150px;
+      width: 200px;
+    }
+  }
+
+  mat-card-actions {
+    text-align: center;
+    button {
+      padding: 8px;
+      background-color: #00AAFF;
+      border-radius: 2px;
+      font-size: 1.2rem;
+      font-weight: bold;
+      color: #ffffff;
+    }
+  }
+}

@@ -1,0 +1,15 @@
+<h1>Carrito de compras</h1>
+<br>
+<div class="content">
+  <div class="item" *ngFor="let item of cart">
+    <span>Nombre {{item.name}}  </span>
+    <span>Precio {{item.price}}  </span>
+    <span>Cantidad {{item.quantity}}  </span>
+    <span> {{item.price * item.quantity}} </span>
+  </div>
+</div>
+<div class="subTotal">
+  <p>Subtotal: <span> {{getSubTotal()}} </span></p>
+  <p>Total: <span> {{ getTotal() }} </span></p>
+</div>
+

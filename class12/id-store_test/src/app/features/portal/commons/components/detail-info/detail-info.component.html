@@ -1,0 +1,19 @@
+<h1>{{productDetail?.name}}</h1>
+<p><span>Precio: {{productDetail?.price | currency:'PEN' }} </span></p>
+<p class="description">
+  <strong>Descripción:</strong>  <br>
+  {{productDetail?.description}}
+</p>
+<p>
+  <span class="quantity">{{productDetail?.quantity ? 'Hay existencias' : 'Agotado'}}</span>
+</p>
+
+<form action="">
+  <mat-form-field class="example-full-width">
+    <mat-label>Cantidad</mat-label>
+    <input matInput type="number">
+  </mat-form-field>
+  <button mat-flat-button color="primary">Añadir al carrito</button>
+</form>
+
+<!-- {{ productDetail | json }} -->
